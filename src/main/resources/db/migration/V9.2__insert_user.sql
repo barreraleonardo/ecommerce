@@ -1,0 +1,3 @@
+INSERT INTO user (user_id, first_name, last_name, email, password, phone, creation_date, is_active, role_id)
+VALUES           ( 1, 'joel', 'rodriguez', 'rgzjoel14@gmail.com', '$2y$10$oIWCIz2a26KeSh92EAQw8eQlsmnuMnaoBPOUCRjwJB9ZmSrfcBG3u', '15160848', CURRENT_TIMESTAMP(), TRUE, 1),
+                 ( 2, 'pedro', 'sanchez', 'pedroSanchez@gamil.com', '$2y$10$SPSPGa1Z02CZQsacJZnfHuAq65sUqoudEH2WhnufNghcAYM5niol6', '518418048', CURRENT_TIMESTAMP(), TRUE, 2);
